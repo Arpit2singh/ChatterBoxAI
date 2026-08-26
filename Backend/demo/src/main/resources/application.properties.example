@@ -1,0 +1,25 @@
+# =========================================================================
+# ChatterBox AI - Backend Configuration Template
+# Copy this file to application.properties and configure your values.
+# =========================================================================
+
+spring.application.name=ChatterBoxBackend
+
+# -------------------------------------------------------------------------
+# LiveKit Cloud / Self-Hosted Configuration
+# -------------------------------------------------------------------------
+livekit.api.key=YOUR_LIVEKIT_API_KEY
+livekit.api.secret=YOUR_LIVEKIT_API_SECRET
+livekit.api.url=wss://YOUR_LIVEKIT_DOMAIN.livekit.cloud
+
+# -------------------------------------------------------------------------
+# PostgreSQL Database Configuration (e.g., Supabase / Local Postgres)
+# -------------------------------------------------------------------------
+spring.datasource.url=jdbc:postgresql://localhost:5432/chatterbox
+spring.datasource.username=postgres
+spring.datasource.password=YOUR_DATABASE_PASSWORD
+
+# JPA / Hibernate settings
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect

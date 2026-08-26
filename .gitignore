@@ -1,0 +1,145 @@
+# =========================================================================
+# ChatterBoxAI - Root .gitignore
+# =========================================================================
+
+# -------------------------------------------------------------------------
+# Environment & Sensitive Credentials (CRITICAL - DO NOT COMMIT)
+# -------------------------------------------------------------------------
+.env
+.env.*
+*.env
+**/.env
+**/.env.*
+application.properties
+**/application.properties
+application-*.properties
+**/application-*.properties
+application.yml
+**/application.yml
+application-*.yml
+**/application-*.yml
+
+# Keep example / template configuration files
+!*.example
+!*.template
+
+# -------------------------------------------------------------------------
+# Node / Frontend Dependencies & Build Output
+# -------------------------------------------------------------------------
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+dist-ssr/
+**/dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.oxlint-cache/
+
+# -------------------------------------------------------------------------
+# Java / Spring Boot / Maven Build Output
+# -------------------------------------------------------------------------
+target/
+**/target/
+*.class
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# -------------------------------------------------------------------------
+# Python / AI Agent Worker Virtual Environments & Bytecode
+# -------------------------------------------------------------------------
+venv/
+**/venv/
+env/
+**/env/
+ENV/
+**/ENV/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Pytest / Mypy / Linting caches
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# -------------------------------------------------------------------------
+# IDEs, Editors & Operating System Files
+# -------------------------------------------------------------------------
+# JetBrains (IntelliJ, PyCharm, WebStorm)
+.idea/
+**/.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# VS Code
+.vscode/*
+**/.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Eclipse / STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/nbdist/
+/.nb-gradle/
+
+# OS Specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Logs
+logs/
+**/logs/
+*.log

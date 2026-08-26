@@ -1,0 +1,16 @@
+# Core LiveKit Agents & Real-Time Voice Plugins
+livekit-agents>=1.6.10
+livekit-plugins-groq>=1.6.10
+livekit-plugins-openai>=1.6.10
+livekit-plugins-silero>=1.6.10
+
+# AI / LLM SDK
+openai>=2.54.0
+
+# Environment & HTTP Networking
+python-dotenv>=1.2.3
+requests>=2.34.2
+
+# Optional FastAPI Server
+fastapi>=0.115.0
+uvicorn>=0.30.0

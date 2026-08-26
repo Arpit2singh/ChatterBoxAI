@@ -1,0 +1,178 @@
+/* =========================================================
+   HERO SECTION - CENTERED, IMPACTFUL SAAS HERO
+   ========================================================= */
+
+.hero-section {
+  position: relative;
+  width: 100%;
+  min-height: 84vh;
+  min-height: 84svh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 140px 24px 80px;
+  box-sizing: border-box;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+/* Subtle background atmosphere */
+.hero-ambient-glow {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 700px;
+  height: 500px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(124, 58, 237, 0.15) 0%, rgba(34, 211, 238, 0.08) 45%, transparent 70%);
+  filter: blur(60px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.hero-grid-subtle {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 60px 60px;
+  mask-image: radial-gradient(ellipse at 50% 50%, black 30%, transparent 80%);
+  -webkit-mask-image: radial-gradient(ellipse at 50% 50%, black 30%, transparent 80%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Centered Container */
+.hero-container-centered {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 860px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 28px;
+}
+
+/* Small Quiet Eyebrow */
+.hero-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 9999px;
+  backdrop-filter: blur(8px);
+}
+
+.eyebrow-text {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Headline: First line solid white, second line wow gradient */
+.hero-headline {
+  font-family: 'Outfit', sans-serif;
+  font-size: clamp(46px, 6.2vw, 80px);
+  font-weight: 800;
+  line-height: 1.08;
+  letter-spacing: -2px;
+  color: #ffffff;
+  margin: 0;
+  text-shadow: 0 4px 24px rgba(0, 0, 0, 0.5);
+}
+
+.headline-gradient {
+  background: linear-gradient(135deg, #a78bfa 0%, #38bdf8 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+/* Focused Description */
+.hero-subheadline {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: clamp(17px, 2vw, 20px);
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.75);
+  margin: 0;
+  max-width: 620px;
+}
+
+/* CTA Row */
+.hero-cta-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding-top: 8px;
+}
+
+.btn-arrow {
+  transition: transform 0.2s ease;
+}
+
+.hero-cta-group button:hover .btn-arrow,
+.hero-cta-group a:hover .btn-arrow {
+  transform: translateX(4px);
+}
+
+/* Quiet Trust Line directly below CTA */
+.hero-trust-quiet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding-top: 12px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.trust-live-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #10b981;
+  box-shadow: 0 0 8px #10b981;
+}
+
+.trust-sep {
+  color: rgba(255, 255, 255, 0.25);
+  font-size: 10px;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 120px 20px 60px;
+    min-height: auto;
+  }
+
+  .hero-container-centered {
+    gap: 20px;
+  }
+
+  .hero-trust-quiet {
+    font-size: 12px;
+    gap: 8px;
+  }
+}
+
+.hero-product-layer {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.hero-abstract-img {
+  display: none;
+}
