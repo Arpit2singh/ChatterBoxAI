@@ -9,6 +9,17 @@
 [![LiveKit](https://img.shields.io/badge/LiveKit-WebRTC%20Voice-00D2B4?style=flat&logo=livekit&logoColor=white)](https://livekit.io/)
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4.x-38B2AC?style=flat&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![Demo Video](https://img.shields.io/badge/Demo-Watch%20Video-red?style=flat&logo=googlechrome&logoColor=white)](https://drive.google.com/file/d/16_Nuec2f71hHQW4fuuSM0ckd6jyZzweS/view?usp=sharing)
+
+---
+
+## 🎬 Demo Video
+
+Watch ChatterBox AI in action — see how autonomous voice directives seamlessly render, manipulate, and organize canvas elements in real time:
+
+[![Watch Demo Video](https://img.shields.io/badge/▶%20Watch%20Demo-Google%20Drive%20Video-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/16_Nuec2f71hHQW4fuuSM0ckd6jyZzweS/view?usp=sharing)
+
+> 🔗 **Video Link:** [ChatterBox AI Demo Walkthrough on Google Drive](https://drive.google.com/file/d/16_Nuec2f71hHQW4fuuSM0ckd6jyZzweS/view?usp=sharing)
 
 ---
 
